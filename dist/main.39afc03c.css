@@ -1,0 +1,150 @@
+body {
+  height: 100vh;
+  background-image: url("/bg.61de64db.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  padding: 50px 0;
+}
+.container .heroes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 700px;
+  margin: auto;
+  padding: 40px 20px;
+}
+.container .heroes .hero {
+  width: 80px;
+  height: 84px;
+  margin: 4px;
+  border: 3px solid #fff;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background-color: #555;
+  overflow: hidden;
+  transform: skewX(-14deg);
+  transition: transform 0.1s, background-color 0.6s;
+}
+.container .heroes .hero:hover {
+  background-color: #ff9c00;
+  transform: skewX(-14deg) scale(1.3);
+  z-index: 1;
+}
+.container .heroes .hero .image {
+  width: 140%;
+  height: 100%;
+  background-position: cnter;
+  background-repeat: no-repeat;
+  background-size: 90px;
+  transform: skewX(14deg) translateX(-11px);
+}
+.container .heroes .hero:nth-child(1) .image {
+  background-image: url("/hero1.e519cdef.png");
+}
+.container .heroes .hero:nth-child(2) .image {
+  background-image: url("/hero2.0d87eb38.png");
+}
+.container .heroes .hero:nth-child(3) .image {
+  background-image: url("/hero3.3fb5639c.png");
+}
+.container .heroes .hero:nth-child(4) .image {
+  background-image: url("/hero4.69aaef12.png");
+}
+.container .heroes .hero:nth-child(5) .image {
+  background-image: url("/hero5.16b4c6c5.png");
+}
+.container .heroes .hero:nth-child(6) .image {
+  background-image: url("/hero6.621918cf.png");
+}
+.container .heroes .hero:nth-child(7) .image {
+  background-image: url("/hero7.bbc47c08.png");
+}
+.container .heroes .hero:nth-child(8) .image {
+  background-image: url("/hero8.e417a632.png");
+}
+.container .heroes .hero:nth-child(9) .image {
+  background-image: url("/hero9.d461e8ea.png");
+}
+.container .heroes .hero:nth-child(10) .image {
+  background-image: url("/hero10.4f4960e3.png");
+}
+.container .heroes .hero:nth-child(11) .image {
+  background-image: url("/hero11.558ff9f2.png");
+}
+.container .heroes .hero:nth-child(12) .image {
+  background-image: url("/hero12.aceef30d.png");
+}
+.container .heroes .hero:nth-child(13) .image {
+  background-image: url("/hero13.2c50adbf.png");
+}
+.container .heroes .hero:nth-child(14) .image {
+  background-image: url("/hero14.5b931b08.png");
+}
+.container .heroes .hero:nth-child(15) .image {
+  background-image: url("/hero15.840ddb3d.png");
+}
+.container .heroes .hero:nth-child(16) .image {
+  background-image: url("/hero16.70c132cc.png");
+}
+.container .heroes .hero:nth-child(17) .image {
+  background-image: url("/hero17.83f3e0f3.png");
+}
+.container .heroes .hero:nth-child(18) .image {
+  background-image: url("/hero18.a6d132a7.png");
+}
+.container .heroes .hero:nth-child(19) .image {
+  background-image: url("/hero19.7ab7d4e2.png");
+}
+.container .heroes .hero:nth-child(20) .image {
+  background-image: url("/hero20.5e9f1094.png");
+}
+.container .heroes .hero:nth-child(21) .image {
+  background-image: url("/hero21.2b691a32.png");
+}
+.container .heroes .hero:nth-child(22) .image {
+  background-image: url("/hero22.24a8d342.png");
+}
+.container .heroes .hero:nth-child(23) .image {
+  background-image: url("/hero23.5a7d521a.png");
+}
+.container .heroes .hero:nth-child(24) .image {
+  background-image: url("/hero24.9878ec55.png");
+}
+.container .heroes .hero:nth-child(25) .image {
+  background-image: url("/hero25.0dba0e11.png");
+}
+.container .heroes .hero:nth-child(26) .image {
+  background-image: url("/hero26.bdfa15ab.png");
+}
+.container .heroes .hero:nth-child(27) .image {
+  background-image: url("/hero27.98253e93.png");
+}
+.container .heroes .hero:nth-child(28) .image {
+  background-image: url("/hero28.8d935f47.png");
+}
+.container .heroes .hero:nth-child(29) .image {
+  background-image: url("/hero29.d7403648.png");
+}
+.container .heroes .hero:nth-child(30) .image {
+  background-image: url("/hero30.7361d752.png");
+}
+.container .heroes .hero:nth-child(31) .image {
+  background-image: url("/hero31.b08db027.png");
+}
+.container .heroes .hero:nth-child(32) .image {
+  background-image: url("/hero32.c8144314.png");
+}
+.container .logo {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.container .logo img {
+  width: 100%;
+}
+
+/*# sourceMappingURL=/main.39afc03c.css.map */
